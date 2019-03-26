@@ -8,12 +8,12 @@ const hbs = require('hbs')
 
 //Setup Express
 const app = express()
+const port = process.env.PORT || 3000
 
 // const declares
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
-const port = '3000'
 const name = 'Nathon Reed'
 
 // app.set settings
